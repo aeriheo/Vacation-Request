@@ -1,0 +1,44 @@
+.div_box{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    background-color:#D7EAF0;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_box{
+    font-size:80px;
+    font-weight:bold;
+    margin:20px;
+}
+
+.form_container{
+    display:flex;
+}
+
+.form_box{
+    display:flex;
+    flex-direction:column;
+}
+
+.input_box{
+    width:500px;
+    height:65px;
+    margin:5px;
+}
+
+.login_btn{
+    background-color:#ACC2D2;
+    width:80px;
+    color:black;
+    height:130px;
+    margin-top:5px;
+    font-weight:bold;
+}
+
+.find_pw_btn{
+    color: black;
+    float: right;
+}
