@@ -21,24 +21,24 @@
 .form_box{
     display:flex;
     flex-direction:column;
+    width:510px;
+    justify-content:space-between;
 }
 
 .input_box{
     width:500px;
     height:65px;
-    margin:5px;
 }
 
-.login_btn{
+#login_btn{
     background-color:#ACC2D2;
     width:80px;
     color:black;
-    height:130px;
-    margin-top:5px;
+    height:120px;
     font-weight:bold;
 }
 
-.find_pw_btn{
+#find_pw_btn{
     color: black;
     float: right;
 }
