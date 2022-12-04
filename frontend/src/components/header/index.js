@@ -8,8 +8,8 @@ const Header = () =>{
 
     return(
         <div className='header_div'>
-            <Button style={{color:'black', fontSize:'15px'}}>휴가 신청</Button>
-            <div className='title_div'>MY VACATION</div>
+            <Button style={{color:'black', fontSize:'15px'}} onClick={()=>{window.location.href='/request'}}>휴가 신청</Button>
+            <div className='title_div' onClick={()=>{window.location.href='/home'}}>MY VACATION</div>
             <div className='user_div'>{username}님 환영합니다</div>
         </div>
     );
