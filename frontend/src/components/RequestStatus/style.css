@@ -1,0 +1,62 @@
+.status_wrapper{
+    display:flex; 
+    flex-direction:column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.status_div{
+    width:80%; 
+    display: flex; 
+    justify-content:space-between; 
+    align-items: center; 
+    border-bottom:1px solid; 
+    margin-bottom:10px;
+}
+
+.status_title{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.status_lists_div{
+    width:80%; 
+    display: flex; 
+    justify-content:space-between; 
+    align-items:center;
+    margin:5px;
+}
+
+.status_list_waiting{
+    width:45px; 
+    height:45px; 
+    display:flex; 
+    background-color:#A5DEFF; 
+    border-radius:50px; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.status_list_approval{
+    width:45px; 
+    height:45px; 
+    display:flex; 
+    background-color:#B3EC9F; 
+    border-radius:50px; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.status_list_reject{
+    width:45px; 
+    height:45px; 
+    display:flex; 
+    background-color:#FFA5A5; 
+    border-radius:50px; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.status_list_text{
+    font-weight:bold;
+}
