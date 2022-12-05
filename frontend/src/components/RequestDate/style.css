@@ -1,0 +1,19 @@
+.request_date_wrapper{
+    display:flex; 
+    align-items: center; 
+    margin-top:20px; 
+    margin-bottom:50px;
+}
+
+.request_date_title{
+    margin-right:30px; 
+    font-size:20px;
+    font-weight:bold;
+}
+
+.request_date_text{
+    margin-left:20px;
+    margin-right:20px; 
+    font-size:20px; 
+    font-weight:bold;
+}

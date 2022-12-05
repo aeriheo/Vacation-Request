@@ -1,0 +1,12 @@
+.request_type_wrapper{
+    display:flex; 
+    align-items: center; 
+    margin-top:20px; 
+    margin-bottom:50px;
+}
+
+.request_type_title{
+    margin-right:30px; 
+    font-size:20px; 
+    font-weight:bold;
+}
