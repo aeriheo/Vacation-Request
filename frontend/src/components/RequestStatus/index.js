@@ -7,7 +7,7 @@ const RequestStatus = () =>{
         <div className='status_wrapper'>
             <div className='status_div'>
                 <div className='status_title'>신청 현황</div>
-                <Button style={{fontWeight:'bold', color:'black'}}>더보기</Button>
+                <Button style={{fontWeight:'bold', color:'black'}} onClick={()=>{window.location.href='/requestlist';}}>더보기</Button>
             </div>
             <div className='status_lists_div'>
                 <div>2022.11.25 오전 반차</div>

@@ -10,8 +10,21 @@
 .title_div{
     font-size:30px; 
     font-weight:bold;
+    cursor:pointer;
 }
 
 .user_div{
     font-size:15px;
+}
+
+.user_wrapper{
+    display:flex;
+    align-items:center;
+
+}
+
+.logout_div{
+    font-size:15px;
+    margin-left:10px;
+    cursor:pointer;
 }

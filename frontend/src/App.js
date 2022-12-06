@@ -4,6 +4,7 @@ import FindPw from './pages/FindPw';
 import SetPw from './pages/SetPw';
 import Main from './pages/Main';
 import Request from './pages/Request';
+import RequestList from './pages/RequestList';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path = '/setpw' element={<SetPw/>} />
         <Route exact path = '/home' element={<Main/>} />
         <Route exact path = '/request' element={<Request/>} />
+        <Route exact path = '/requestlist' element={<RequestList/>} />
       </Routes>
     </BrowserRouter>
   );

@@ -16,6 +16,7 @@ const Login = () => {
 
     const login = () =>{
         console.log(userid, password);
+        window.location.replace('/home');
     }
     return(
         <div className="div_box">

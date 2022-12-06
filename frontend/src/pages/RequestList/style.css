@@ -1,0 +1,20 @@
+.request_list_wrapper{
+    flex-direction:column; 
+    width:79%; 
+    margin-top:40px;
+    margin-bottom:50px;
+}
+
+.request_list_title{
+    margin-right:30px; 
+    font-size:20px; 
+    font-weight:bold;
+}
+
+.request_wrapper{
+    width:100%; 
+    display:flex; 
+    flex-direction:column; 
+    justify-content: center; 
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+.request_table_wrapper{
+    width:100%; 
+    display: flex; 
+    justify-content: space-between; 
+    margin-top:40px;
+}
+
+.request_table{
+    margin-top:40px;
+    width:100%; 
+    text-align:left; 
+    border-collapse: collapse;
+}
+
+.request_table_th{
+    border-bottom: 1px solid; 
+    height:40px;
+}
+
+.request_table_td{
+    height:40px;
+}

@@ -10,7 +10,10 @@ const Header = () =>{
         <div className='header_div'>
             <Button style={{color:'black', fontSize:'15px'}} onClick={()=>{window.location.href='/request'}}>휴가 신청</Button>
             <div className='title_div' onClick={()=>{window.location.href='/home'}}>MY VACATION</div>
-            <div className='user_div'>{username}님 환영합니다</div>
+            <div className='user_wrapper'>
+                <div className='user_div'>{username}님 환영합니다</div>
+                <div className='logout_div' onClick={()=>{window.location.replace('/')}}>로그아웃</div>
+            </div>
         </div>
     );
 };
