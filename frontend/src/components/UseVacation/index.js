@@ -8,7 +8,7 @@ const UseVacation = () =>{
             <div className = 'vacation_box'>
                 <div className = 'vacation_use_title_box'>
                     <div className='vacation_use_title'>사용현황</div>
-                    <Button style={{fontWeight: 'bold', color: 'black'}}>더보기</Button>
+                    <Button style={{fontWeight: 'bold', color: 'black'}} onClick={()=>window.location.href='/uselist'}>더보기</Button>
                 </div>
                 <div className='vacation_use_lists'>
                     <div className='vacation_use_list'>2022.11.25 오전</div>

@@ -5,6 +5,7 @@ import SetPw from './pages/SetPw';
 import Main from './pages/Main';
 import Request from './pages/Request';
 import RequestList from './pages/RequestList';
+import UseList from './pages/UseList';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path = '/home' element={<Main/>} />
         <Route exact path = '/request' element={<Request/>} />
         <Route exact path = '/requestlist' element={<RequestList/>} />
+        <Route exact path = '/uselist' element={<UseList/>} />
       </Routes>
     </BrowserRouter>
   );
