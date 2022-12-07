@@ -1,0 +1,22 @@
+.input_wrapper{
+    display:flex; 
+    align-items: center; 
+    width:80%; 
+    margin-bottom:10px; 
+    justify-content: flex-end;
+}
+
+.input_title{
+    font-weight:bold;
+    width:100px;
+}
+
+#input_email{
+    margin:10px;
+    width:229px;
+}
+
+#dup_check_btn{
+    cursor:pointer; 
+    font-size:13px;
+}

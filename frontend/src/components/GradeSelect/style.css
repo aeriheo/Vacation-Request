@@ -1,0 +1,17 @@
+.select_wrapper{
+    display:flex;
+    align-items: center; 
+    width:80%; 
+    margin-bottom:10px; 
+    justify-content: flex-end;
+}
+
+.select_title{
+    font-weight:bold; 
+    width:100px;
+}
+
+#select_list_wrapper{
+    margin:10px; 
+    width:300px;
+}

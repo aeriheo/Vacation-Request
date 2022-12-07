@@ -6,6 +6,8 @@ import Main from './pages/Main';
 import Request from './pages/Request';
 import RequestList from './pages/RequestList';
 import UseList from './pages/UseList';
+import Manage from './pages/Manage';
+import NewMember from './pages/NewMember';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route exact path = '/request' element={<Request/>} />
         <Route exact path = '/requestlist' element={<RequestList/>} />
         <Route exact path = '/uselist' element={<UseList/>} />
+        <Route exact path = '/manage' element={<Manage/>} />
+        <Route exact path = '/newmember' element={<NewMember/>} />
       </Routes>
     </BrowserRouter>
   );
