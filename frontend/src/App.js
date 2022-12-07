@@ -8,6 +8,7 @@ import RequestList from './pages/RequestList';
 import UseList from './pages/UseList';
 import Manage from './pages/Manage';
 import NewMember from './pages/NewMember';
+import Permission from './pages/Permission';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route exact path = '/uselist' element={<UseList/>} />
         <Route exact path = '/manage' element={<Manage/>} />
         <Route exact path = '/newmember' element={<NewMember/>} />
+        <Route exact path = '/permission' element={<Permission/>} />
       </Routes>
     </BrowserRouter>
   );
